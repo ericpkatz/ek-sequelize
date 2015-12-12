@@ -13,7 +13,7 @@ module.exports = {
       .then(function(){
          return done();
        })
-       .catch(function(){
+       .catch(function(err){
         throw err;
       });
   }
